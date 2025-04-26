@@ -1,7 +1,8 @@
 // This file is git-controlled, so don't write a private value
 module.exports = {
   QUAINT_ENV: 'staging',
-  BASEURL: 'https://2024-seiryofes-test-123-d7aae2e9egdgfmf7.japaneast-01.azurewebsites.net',
+  BASEURL:
+    'https://2024-seiryofes-test-123-d7aae2e9egdgfmf7.japaneast-01.azurewebsites.net',
   AZURE_AD_OPENIDCONFIGURATION:
     'https://login.microsoftonline.com/158e6d17-f3d5-4365-8428-26dfc74a9d27/v2.0/.well-known/openid-configuration',
   AZURE_AD_CLIENTID: '0f2252c5-62ef-4aab-af65-99a753f1c77c',
