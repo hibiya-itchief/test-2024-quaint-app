@@ -235,6 +235,8 @@ const nuxt_config: NuxtConfig = {
   },
   generate: {
     fallback: true,
+    routes: [],
+    /* デプロイようにコメントアウト
     async routes() {
       // emvSet.BASEURLの末尾にスラッシュがある場合は削除する
       const baseurl_without_slash =
@@ -298,6 +300,7 @@ const nuxt_config: NuxtConfig = {
         ...news_routes,
       ]
     },
+    */
   },
 
   loading: {
