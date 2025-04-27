@@ -4,7 +4,7 @@ import fetch from 'node-fetch'
 import colors from 'vuetify/es5/util/colors'
 import { Group, News, Tag } from './types/quaint'
 
-const environment = process.env.QUAINT_ENV || 'development'
+const environment = 'production'
 const env_set = require(`./env.${environment}.js`)
 
 const nuxt_config: NuxtConfig = {
